@@ -18,28 +18,22 @@
   position: absolute;
 }
 
+/* Footer */
+.footer {
+  background-color: var(--background-color);
+  color: var(--white-text-color);
+}
+
 .list {
   list-style: none;
 }
 
 /* Header */
 .header {
-  position: absolute;
-  width: 1600px;
-  height: 80px;
-  left: 0px;
-  top: 0px;
-
   background: var(--background-color-two);
 }
 
 .logo {
-  position: absolute;
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
-
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
@@ -50,12 +44,6 @@
 }
 
 .studio {
-  position: absolute;
-  width: 49px;
-  height: 16px;
-  left: 453px;
-  top: 32px;
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.4;
@@ -65,12 +53,6 @@
 }
 
 .portfolio {
-  position: absolute;
-  width: 77px;
-  height: 16px;
-  left: 552px;
-  top: 32px;
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.4;
@@ -80,27 +62,15 @@
 }
 
 .contacts {
-  position: absolute;
-  width: 68px;
-  height: 16px;
-  left: 679px;
-  top: 32px;
-
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.4px;
+  line-height: 1.4;
   letter-spacing: 0.02em;
 
   color: var(--titel-text-color);
 }
 
 .email {
-  position: absolute;
-  width: 135px;
-  height: 16px;
-  left: 1078px;
-  top: 32px;
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.4;
@@ -110,12 +80,6 @@
 }
 
 .telefon {
-  position: absolute;
-  width: 122px;
-  height: 16px;
-  left: 1263px;
-  top: 32px;
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.4;
