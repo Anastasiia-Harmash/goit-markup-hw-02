@@ -106,8 +106,8 @@
   background-color: var(--background-color);
   color: var(--white-logo-color);
 }
-
 .logo-footer {
+  font-style: normal;
   font-family: Raleway;
   font-weight: 500;
   font-size: 26px;
@@ -118,10 +118,12 @@
 }
 
 .logo-accent-footer {
+  font-style: normal;
   color: var(--accent-text-color);
 }
 
 .address-footer {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -130,6 +132,7 @@
 }
 
 .email-footer {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -138,6 +141,7 @@
 }
 
 .telefon-footer {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
