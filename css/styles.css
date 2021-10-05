@@ -93,12 +93,82 @@
 }
 
 /* Hero */
-.button {
-  background-color: var(--accent-text-color);
+.hero {
+  background-color: var(--background-color);
+}
+
+.hero-titel {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 
   color: var(--white-color);
 }
 
+.button {
+  background-color: var(--accent-text-color);
+  color: var(--white-color);
+}
+
+/* Content  */
+
+.content {
+  background-color: var(--background-color-two);
+}
+
+.subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--titel-text-color);
+}
+
+.subtitle-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-text-color);
+}
+
+.titel {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--titel-text-color);
+}
+
+/* Command */
+.headline {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+
+  color: var(--titel-text-color);
+}
+
+.desc {
+  font-size: 16px;
+  line-height: 1.18;
+
+  letter-spacing: 0.03em;
+
+  color: var(--primary-text-color);
+}
+/*     СОЛГЫШКО ТЫ СПРАВИШЬСЯ! 
+ЗАМЕНИ ФОН С СЕРОГО НА БЕЛЫЙ НА 1-Й СТР И В БЛОКЕ "НАША КОМАНДА" ЗАМЕНИ НА СЕРЫЙ. ОБНЯЛА! тЫ БЫСТРО ВСЕ СДЕЛАЕШЬ И НАЧНЕШЬ СМОТРЕТЬ РЕПЕТУ 3- дз
+ */
 /* Footer */
 .footer {
   font-family: Roboto, sans-serif;
