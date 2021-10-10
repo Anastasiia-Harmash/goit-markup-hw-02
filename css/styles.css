@@ -16,7 +16,7 @@
 
 /* Body */
 .body {
-  background-color: var(--primary-background-color);
+  background-color: var(--background-color-two);
   color: var(--titel-text-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
@@ -149,6 +149,10 @@
 }
 
 /* Command */
+.command {
+  background-color: var(--primary-background-color);
+}
+
 .headline {
   font-weight: 500;
   font-size: 16px;
@@ -166,9 +170,7 @@
 
   color: var(--primary-text-color);
 }
-/*     СОЛГЫШКО ТЫ СПРАВИШЬСЯ! 
-ЗАМЕНИ ФОН С СЕРОГО НА БЕЛЫЙ НА 1-Й СТР И В БЛОКЕ "НАША КОМАНДА" ЗАМЕНИ НА СЕРЫЙ. ОБНЯЛА! тЫ БЫСТРО ВСЕ СДЕЛАЕШЬ И НАЧНЕШЬ СМОТРЕТЬ РЕПЕТУ 3- дз
- */
+
 /* Footer */
 .footer {
   font-family: Roboto, sans-serif;
@@ -234,4 +236,26 @@
 
 .cursor {
   cursor: pointer;
+}
+
+/* Section */
+
+.section {
+}
+
+.section-titel {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--titel-text-color);
+}
+
+.section-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-text-color);
 }
